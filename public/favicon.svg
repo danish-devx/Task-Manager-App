@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f6f0"/>
+      <stop offset="1" stop-color="#edebe0"/>
+    </linearGradient>
+    <pattern id="grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" fill="none" stroke="#173b2a" stroke-opacity="0.05"/>
+    </pattern>
+    <linearGradient id="fadeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="gridFade">
+      <rect width="64" height="64" fill="url(#fadeGrad)"/>
+    </mask>
+    <clipPath id="round">
+      <rect width="64" height="64" rx="14"/>
+    </clipPath>
+    <radialGradient id="glowPeach" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d5a194" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#d5a194" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowSage" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#91b294" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#91b294" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- cream background + grid -->
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect width="64" height="64" rx="14" fill="url(#grid)" mask="url(#gridFade)"/>
+
+  <!-- ambient floral glows (floral-scene jaisa) -->
+  <g clip-path="url(#round)">
+    <circle cx="52" cy="10" r="20" fill="url(#glowPeach)"/>
+    <circle cx="10" cy="54" r="22" fill="url(#glowSage)"/>
+  </g>
+
+  <rect x="2.5" y="2.5" width="59" height="59" rx="12" fill="none" stroke="#17221c" stroke-opacity="0.1"/>
+
+  <!-- chota phool top-left (terracotta center + peach petals) -->
+  <g>
+    <circle cx="13" cy="7.6" r="3.2" fill="#f6d7c9"/>
+    <circle cx="18.4" cy="13" r="3.2" fill="#f6d7c9"/>
+    <circle cx="13" cy="18.4" r="3.2" fill="#f6d7c9"/>
+    <circle cx="7.6" cy="13" r="3.2" fill="#f6d7c9"/>
+    <circle cx="13" cy="13" r="2.8" fill="#a54d3f"/>
+  </g>
+
+  <!-- checkmark (sage green) -->
+  <path d="M16 34.5 L27 45.5 L47.5 19.5" fill="none" stroke="#52785b" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- patta bottom-right (CSS leaf jaisa, sirf outline) -->
+  <path d="M44 53.5 Q 46.5 46 54.5 45 Q 55.5 52.5 44 53.5 Z" fill="none" stroke="#52785b" stroke-opacity="0.4" stroke-width="1.6"/>
+</svg>
