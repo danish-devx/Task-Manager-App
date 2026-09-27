@@ -4,13 +4,13 @@
 
 ### A calm, responsive task manager for turning priorities into progress.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-173b2a?style=for-the-badge)](https://danish-devx.github.io/Task-Manager-App/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-173b2a?style=for-the-badge)](https://task-manager-app-sigma-brown.vercel.app/)
 [![React](https://img.shields.io/badge/React-19.2.8-61DAFB?style=flat-square&logo=react&logoColor=20232A)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.3.0-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.3.3-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20with-GitHub%20Pages-222222?style=flat-square&logo=github)](https://pages.github.com/)
+[![Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)](https://vercel.com/)
 
-**[View the live application](https://danish-devx.github.io/Task-Manager-App/)** · **[View the source code](https://github.com/danish-devx/Task-Manager-App)**
+**[View the live application](https://task-manager-app-sigma-brown.vercel.app/)** · **[View the source code](https://github.com/danish-devx/Task-Manager-App)**
 
 </div>
 
@@ -43,7 +43,7 @@ All task data is persisted locally in the browser, so the list remains available
 | State | React Hooks (`useState`, `useEffect`, `useMemo`) |
 | Persistence | Browser `localStorage` |
 | Code quality | ESLint |
-| Deployment | GitHub Pages |
+| Deployment | Vercel |
 
 ## Project Structure
 
@@ -99,9 +99,9 @@ Tasks are stored only in the browser's local storage under the `focus-tasks` key
 
 ## Deployment
 
-The production build is deployed through GitHub Pages and is available at:
+The production build is deployed through Vercel and is available at:
 
-**[https://danish-devx.github.io/Task-Manager-App/](https://danish-devx.github.io/Task-Manager-App/)**
+**[https://task-manager-app-sigma-brown.vercel.app/](https://task-manager-app-sigma-brown.vercel.app/)**
 
 ## Author
 
